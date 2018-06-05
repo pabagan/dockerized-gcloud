@@ -3,7 +3,7 @@ services:
   #
   # NodeJs
   gcloud:
-    image: google/cloud-sdk
+    build: .
     # name the created container..
     container_name: ${APP_NAME}
     # from that build image..

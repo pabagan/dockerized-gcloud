@@ -1,5 +1,3 @@
-FROM alpine:3.3
-MAINTAINER Pablo Aguilar <pablo@klikkie.nl>
+FROM google/cloud-sdk
 
-RUN apk --update add imagemagick && \
-  rm -rf /var/cache/apk/*
+MAINTAINER Pablo Aguilar <pabagan@gmail.com>
