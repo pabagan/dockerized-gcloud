@@ -14,11 +14,13 @@ docker run -ti --name gcloud-config google/cloud-sdk gcloud auth application-def
 ```
 
 ## With Docker Compose
-After `docker-compose up`.
+```sh
+# Build and run container
+docker-compose up
+```
 
 ## Access container shell
-
-Running `./sh/log-gcloud.sh`.
+Run prepared script  with Running `./sh/log-gcloud.sh` or direct with Docker:
 
 ```sh
 docker exec -i -t dockerized-gcloud bash
